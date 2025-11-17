@@ -1,49 +1,52 @@
-![PumaGen Banner](banner.png)
+![banner](banner.png)
 
+> ⚠️ **Notice:**  
+> **does not work atm bc Apple discontinued their API to check gift cards :(**  
+> im currently working on this feel free to open a pr if you have any ideas!
 
-## does not work atm as apple discontinued their api to check gift cards :(
 ## Usage
 
-1. Clone the repository to your local machine.
-2. Run the `generator.py` script.
-3. Follow the prompts to choose how many codes to generate.
-4. The script will generate a bunch of codes.
-6. After you have the codes generated, use `validator.py` in the same folder to validate the codes (tries to redeem at apple and if it fails, the code is invalid)
+1. clone the repo to your pc.
+2. run the `generator.py` script.
+3. do the script
+4. you then get a bunch of possibly working codes!
+6. then use `validator.py` to validate the codes (tries to redeem at apple and if it fails, the code is invalid)
 
 ## Requirements
 
-- python 3
+- python installed
+- a pc
 - knowledge
 
 ## Installation
 
-1. Clone the repository:
+1. clone the repo:
 
 ```cmd
 git clone https://github.com/SilasPuma/pumagen
 ```
 
-2. Navigate to the project directory:
+2. cd into it:
 
 ```cmd
 cd PumaGen
 ```
 
-3. Run the script:
+3. run the script:
 
 ```cmd
 python generator.py
 ```
 
-4. Validate your codes:
+4. check the codes:
 
 ```cmd
 python validator.py
 ```
 
-## Disclaimer
+## disclaimer
 
-This tool is for educational and testing purposes only. Most codes DO NOT work because of how hard it is to generate a working code. pls dont use the codes for any illegal activities. I am not responsible for what you do with these codes. Please don't open an issue about it not generating any valid codes because while it IS possible, it takes a long time to actually generate one.
+this tool is for educational and testing purposes only. most codes DO NOT work because of how hard it is to generate a working code. pls dont use the codes for any illegal activities. i am not responsible for what you do with these codes. also please don't open an issue about it not generating any valid codes because while it IS possible, it takes a long time to actually generate one.
 
 
 ---
