@@ -1,10 +1,10 @@
 ![banner](banner.png)
 
-> ⚠️ **Notice:**  
+> ⚠️ **notice:**  
 > **does not work atm bc Apple discontinued their API to check gift cards :(**  
 > im currently working on this feel free to open a pr if you have any ideas!
 
-## Usage
+## usage
 
 1. clone the repo to your pc.
 2. run the `generator.py` script.
@@ -12,13 +12,12 @@
 4. you then get a bunch of possibly working codes!
 6. then use `validator.py` to validate the codes (tries to redeem at apple and if it fails, the code is invalid)
 
-## Requirements
-
+## requirements
 - python installed
 - a pc
 - knowledge
 
-## Installation
+## installation
 
 1. clone the repo:
 
